@@ -5,6 +5,6 @@
 Результат: [12, 44, 4, 10, 78, 123].
 Реализуйте с list comprehension'''
 
-my_lista = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
+my_list = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
 my_new_list = [my_lista[i] for i in range(1, len(my_lista)) if my_lista[i] > my_lista[i-1]] 
 print(my_new_list)       
