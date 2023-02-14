@@ -3,7 +3,7 @@
 Об окончании ввода данных свидетельствует пустая строка.'''
 
 my_list = []
-with open("myfile.txt", "w") as file_obj:
+with open("text_1.txt", "w") as file_obj:
         file_obj.writelines(my_list)
 while True:
     line = input("Введите произвольную строку: ")
