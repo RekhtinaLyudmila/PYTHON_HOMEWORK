@@ -4,8 +4,6 @@
 данных в виде словаря в файл orders.json. При записи данных указать
 величину отступа в 4 пробельных символа.'''
 
-
-
 import os
 import json
 
@@ -13,7 +11,7 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def write_order_to_json(item, quantity, price, buyer, date):
-    filename = os.path.join(CURRENT_DIR,  'orders.json')
+    filename = os.path.join(CURRENT_DIR, 'orders.json')
 
     if os.path.exists(filename):
         data = {}
@@ -34,4 +32,3 @@ def write_order_to_json(item, quantity, price, buyer, date):
 
 if __name__ == '__main__':
     write_order_to_json('scaner', '20', '10000', 'Petrov P.P.', '11.01.2018')
-    

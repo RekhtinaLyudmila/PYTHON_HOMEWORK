@@ -1,4 +1,0 @@
-Hello
-spring
-dog
-good day

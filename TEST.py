@@ -1,6 +1,6 @@
 l = ['один', 'два', 'три', 'четыре', 'пять']
 l2 = []
-f1 = open('text_3.txt')
+f1 = open('Lesson8/text_3.txt')
 a = f1.readlines()
 print(a)
 e = len(a)
