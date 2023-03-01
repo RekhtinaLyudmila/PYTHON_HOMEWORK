@@ -4,7 +4,7 @@
 
 my_list = []
 with open("text_1.txt", "w") as file_obj:
-        file_obj.writelines(my_list)
+    file_obj.writelines(my_list)
 while True:
     line = input("Введите произвольную строку: ")
     if line == '':
@@ -13,8 +13,3 @@ while True:
     else:
         newline = line + '\n'
         my_list.append(newline)
-        
-       
-
-    
-
