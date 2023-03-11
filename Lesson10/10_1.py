@@ -4,16 +4,19 @@
 в набор кодовых точек Unicode (НО НЕ В БАЙТЫ!!!)
 и также проверить тип и содержимое переменных'''
 
-strs = ['разработка', 'сокет', 'декоратор']
 
-for s in strs:
-    print(type(s), s)
+words = ['разработка', 'сокет', 'декоратор']
 
-strs_unicode = [
+for word in words:
+    print('тип переменной: {}\n'.format(type(word)))
+    print('содержание переменной - {}\n'.format(word))
+
+words_unicode = [
     '\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430',
     '\u0441\u043e\u043a\u0435\u0442',
     '\u0434\u0435\u043a\u043e\u0440\u0430\u0442\u043e\u0440'
 ]
 
-for s in strs_unicode:
-    print(type(s), s)
+for word in words_unicode:
+    print('тип переменной: {}\n'.format(type(word)))
+    print('содержание переменной - {}\n'.format(word))
